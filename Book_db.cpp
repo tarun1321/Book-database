@@ -153,27 +153,6 @@ int main()
                     search();
                     break;
                 }
-        /*case 4: {
-                system("cls");
-            fflush(stdin);
-            while(fin.read((char*)&ob,sizeof(db)))
-                {
-                    if(!ob))
-                    {
-                    cout<<endl<<" Match found"<<endl<<endl<<endl;
-                    cout<<"  Book title- "<<ob.title<<endl;
-                    cout<<"  ISBN- "<<ob.isbn<<endl;
-                    cout<<"  Author- "<<ob.auth<<endl;
-                    cout<<"  Place- "<<ob.place<<endl;
-                    cout<<"  Cost- "<<ob.cost<<endl;
-                    break;
-                    }
-                }
-            if(strcmp(str,ob.auth)) cout<<"\n Not found";
-            getch();
-            break;
-
-            }*/
         case 3: exit(0);
         }
     }
