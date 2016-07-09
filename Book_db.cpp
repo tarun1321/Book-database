@@ -3,7 +3,9 @@
 #include<fstream>
 #include<stdlib.h>
 #include<string.h>
+
 using namespace std;
+
 class db
 {
 public:
@@ -64,7 +66,7 @@ void search()
                 {
                     if(!strcmp(str,ob.title))
                     {
-                    cout<<endl<<" Match found"<<endl<<endl<<endl;
+                    cout<<endl<<" Match found!!!"<<endl<<endl<<endl;
                     cout<<"  Book title- "<<ob.title<<endl;
                     cout<<"  ISBN- "<<ob.isbn<<endl;
                     cout<<"  Author- "<<ob.auth<<endl;
@@ -86,7 +88,7 @@ void search()
                 {
                     if(ob.isbn==is)
                    {
-                    cout<<endl<<" Match found"<<endl<<endl<<endl;
+                    cout<<endl<<" Match found!!!"<<endl<<endl<<endl;
                     cout<<"  Book title - \t"<<ob.title<<endl<<endl;
                     cout<<"  ISBN       - \t"<<ob.isbn<<endl<<endl;
                     cout<<"  Author     - \t"<<ob.auth<<endl<<endl;
@@ -109,7 +111,7 @@ void search()
                 {
                     if(!strcmp(str,ob.auth))
                     {
-                    cout<<endl<<" Match found"<<endl<<endl<<endl;
+                    cout<<endl<<" Match found!!!"<<endl<<endl<<endl;
                     cout<<"  Book title- "<<ob.title<<endl;
                     cout<<"  ISBN- "<<ob.isbn<<endl;
                     cout<<"  Author- "<<ob.auth<<endl;
